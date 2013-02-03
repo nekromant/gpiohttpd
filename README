@@ -1,0 +1,33 @@
+# prereqs: 
+1. netcat (fullblown)
+2. bash (fullblown, busybox ash didn't work for me. If can hack it 
+   to work - send me a patch)
+3. A box with gpios accessible via gpiolib
+
+# instructions
+1. Copy gpiohttpd.sh to the target box, edit the port at the top.
+2. start it (root or any user, that can edit /sys/class/gpio)
+3. navigate to http://boxip:8080 (or whatever port)
+4. Play with it.
+
+Page autoupdates every 5 seconds. Any change is committed via ajax
+so you should see the result shortly. 
+
+100% hacked in bash, css, javascript and html in under 500 lines of code. 
+All in ONE file.
+
+# License 
+
+        DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+
+Copyright (C) 2004 Sam Hocevar
+ 14 rue de Plaisance, 75014 Paris, France
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+0. You just DO WHAT THE FUCK YOU WANT TO.

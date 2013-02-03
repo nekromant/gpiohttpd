@@ -1,12 +1,10 @@
 #!/bin/bash
-#
-# usage gpiohttpd port
-#
-#
+# Created by Necromant (c) 2013
+# contact@ncrmnt.org
+# Licensed under the terms of WTFPL
+
+# edit port here
 PORT=8080
-
-
-
 
 unload_mods()
 {
