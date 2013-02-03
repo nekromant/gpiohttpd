@@ -405,7 +405,7 @@ mkhtml()
 <body onload="update_values();setInterval('update_values()', 5000 );">
 
 <div id="left">
-<p>gpiohttpd@almery </p>
+<p>gpiohttpd@`hostname` </p>
 </div>
 
 <div id="middle">
